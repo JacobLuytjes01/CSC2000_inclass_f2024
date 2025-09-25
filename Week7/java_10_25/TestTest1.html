@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function scoreIt() {
+            let v = document.getElementById("sc").value;
+            v=v+2;
+            console.log(v);
+        }
+
+    // var sum = 1;
+        // doh( sum);
+        // function doh() {
+        //     sum = 3;
+        // }
+        // sum +=2;
+        // console.log(sum);
+
+        // let players = [
+        //     {'first' : "Jackie", 'last' : "Robinson", "number" : 44},
+        //     {'first' : "Babe", 'last' : "Ruth", "number" : 14},
+        //     {'first' : "Ron", 'last' : "Santo", "number" : 10},
+        // ]
+        // alert(`Number:${players[2].number}`);
+
+        // var ct = 0;
+        // incr(2);
+        // incr(2);
+        // ct += 1;
+        // alert(ct);
+        // function incr(x) {
+        //     ct += x;
+        // }
+        // let sh = [
+        //     {'bread' : '1 loaf'},
+        //     {'milk' : '2 Gal'},
+        // ];
+        // alert(sh[1].milk);
+        var sum = 0;
+        var kl = true;
+        while (kl) {
+            sum += 1;
+            if (sum > 3) break;
+        }
+        console.log(sum);
+
+    </script>
+</head>
+<body>
+    Score <input type="text" name="score" id="sc">
+    <!--<button type="button" onclick="scoreIt()"> start </button>-->
+    <button onclick="scoreIt();"> Click to start</button>
+
+<!--    <div>-->
+<!--        <input type="radio" name="vacation1" value="sailing" >-->
+<!--        <input type="radio" name="vacation2" value="camping" >-->
+<!--        <input type="radio" name="vacation3" value="fishing" >-->
+<!--    </div>-->
+
+
+</body>
+</html>
